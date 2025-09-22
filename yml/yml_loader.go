@@ -2,7 +2,7 @@ package yml
 
 import (
 	"github.com/wawakakakyakya/configloader/file"
-	yaml "gopkg.in/yaml.v2"
+	yaml "gopkg.in/yaml.v3"
 )
 
 func Load(path string, yc interface{}) error {
